@@ -310,6 +310,7 @@ const App = () => {
               style={{
                 fontSize: 16,
                 fontWeight: '500',
+                color: '#455f75',
               }}>
               {index + 1}.- {item}
             </Text>
