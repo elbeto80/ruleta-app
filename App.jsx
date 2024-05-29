@@ -41,7 +41,7 @@ const App = () => {
     borderWidth: 3,
     borderColor: '#7a828e',
     innerRadius: 18,
-    duration: 3500,
+    duration: 4200,
     backgroundColor: '#fff',
     textAngle: 'horizontal',
     knobSource: require('./images/knob.png'),
