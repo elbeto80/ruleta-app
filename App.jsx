@@ -15,15 +15,17 @@ import WheelOfFortune from 'react-native-wheel-of-fortune';
 
 const App = () => {
   const categories = [
-    'Puntos DROOP',
-    'Contralor GOO',
+    'DROOP',
+    'Aliados GOO',
     'Reexpediciones',
     'Servicios',
     // 'Terminales',
   ];
 
+  const colors = ['#094d96', '#b7b7b7', '#3e81c4', '#5c747c'];
+
   const questions = {
-    'Puntos DROOP': {
+    DROOP: {
       questions: [
         {
           question:
@@ -59,7 +61,7 @@ const App = () => {
         },
       ],
     },
-    'Contralor GOO': {
+    'Aliados GOO': {
       questions: [
         {
           question: 'La EIE debemos colocarla Cuando?',
@@ -174,8 +176,6 @@ const App = () => {
     // Terminales: {},
   };
 
-  const colors = ['#FF0000', '#FF7F00', '#4B0082', '#00a800', '#0000FF'];
-
   const [winnerValue, setWinnerValue] = useState(null);
   const [winnerIndex, setWinnerIndex] = useState(null);
   const childRef = useRef(null);
@@ -189,11 +189,11 @@ const App = () => {
   const wheelOptions = {
     rewards: categories,
     knobSize: 18,
-    borderWidth: 1,
-    borderColor: 'transparent',
+    borderWidth: 3,
+    borderColor: '#7a828e',
     innerRadius: 18,
     duration: 3500,
-    backgroundColor: 'transparent',
+    backgroundColor: '#fff',
     textAngle: 'horizontal',
     knobSource: require('./images/knob.png'),
     onRef: ref => (childRef.current = ref),
@@ -221,11 +221,11 @@ const App = () => {
         style={{
           position: 'absolute',
           top: 25,
-          fontSize: 35,
+          fontSize: 34,
           fontWeight: '500',
           color: '#fff',
         }}>
-        {categories[winnerIndex]}
+        RED DE ALIADOS
       </Text>
 
       <WheelOfFortune
