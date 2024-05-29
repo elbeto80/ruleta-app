@@ -36,7 +36,7 @@ export const questions = {
     ],
   },
 
-  'Aliados GOO': {
+  'ALIADOS GOO': {
     questions: [
       {
         question: 'La EIE debemos colocarla Cuando?',
@@ -148,7 +148,7 @@ export const questions = {
     ],
   },
 
-  Reexpediciones: {
+  REEXPEDICIONES: {
     questions: [
       {
         question: '¿Cuál de las siguientes opciones son tipos de rutas?',
@@ -246,7 +246,7 @@ export const questions = {
     ],
   },
 
-  Servicios: {
+  SERVICIOS: {
     questions: [
       {
         question:

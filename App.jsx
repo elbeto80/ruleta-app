@@ -17,9 +17,9 @@ import {questions} from './questions';
 const App = () => {
   const categories = [
     'DROOP',
-    'Aliados GOO',
-    'Reexpediciones',
-    'Servicios',
+    'ALIADOS GOO',
+    'REEXPEDICIONES',
+    'SERVICIOS',
     // 'Terminales',
   ];
 
